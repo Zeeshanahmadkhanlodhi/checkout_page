@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: grey;
+}
+
+.product_detail{
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 20px;
+    height: 70vh;
+}
+.product1 , .product2{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+}
+img{
+    width: 150px;
+    border-radius: 20px;
+    margin-right: 1rem;
+}
+.product_desc{
+    width: 100px;
+}
+.shippping , .total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+.control{
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 7px;
+    border-radius: 10px;
+}
+#minus , #positive{
+    padding: 5px;
+}
+
+.checkout_information{
+    width: 40vw;
+    margin-left: 2rem;
+    color: grey;
+    margin-top: 2rem;
+}
+input[type = text], input[type = number]{
+    padding:15px;
+    width: 500px;
+    border-radius: 10px;
+}
+i{
+    position:absolute;
+    margin: 14px;
+    color: grey;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    padding-left: 15px;
+  }
+ 
+ .ship{
+     margin-top: 4rem;
+ } 
+
+ .input-container{
+     margin-top: 1rem;
+ }
+
+ .input-container2{
+     margin-top: 1rem;
+     display: flex;
+     flex-direction: row;
+     
+   
+
+ }
+
+ .input-container2 input{
+     width: 200px;
+ }
+ select{
+     padding: 15px;
+     width: 236px;
+     border-radius: 10px;
+ }
+
+ .input-cnt{
+     margin-left: 4rem;
+ 
+   }
+   .input-contai{
+       margin-top: 1rem;
+   }
+
+   .btn{
+       text-align: right;
+       margin-top: 1rem;
+   }
+
+   #continue{
+       padding: 15px;
+       width: 130px;
+       border-radius: 10px;
+       background-color: #F2994A;
+       color: white;
+       border: none;
+       
+       
+   }
+
+   #new_amount{
+       color: #F2994A;
+   }
+   #old_amount{
+       text-decoration: line-through;
+   }
+
+footer{
+    margin-top: 2rem;
+    margin-bottom:2rem;
+    text-align: center;
+
+}
+
+
+
+
+
+@media(max-width:1000px){
+    main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .product_detail{
+        width: 50vw;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .checkout_information{
+       width: auto;
+    }
+}

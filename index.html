@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"/>
+    <link rel="icon" href="devchallenges.png" />
+    <link rel="stylesheet" 
+    href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="shortcut icon"  type="image/x-icon"  href="https://devchallenges.io/"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Checkout Page</title>
+  </head>
+  <body>
+`   <h1>Checkout</h1>
+    <main>
+     
+      <section class="checkout_information">
+        <h3>Contact Information</h2>
+          <form action="">
+            <div class="input-container">
+              <label for="email">E-mail</label> <br>
+              <i class="fa fa-envelope"></i>
+              <input type="text" placeholder="Enter your email..." >
+            </div>
+
+            <div class="input-container">
+              <label for="phone">Phone</label> <br>
+              <i class="fa fa-phone"></i>
+              <input type="number" placeholder="Enter your phone..." >
+            </div>
+
+            <h3 class="ship" >  Shipping address </h3>
+
+            <div class="input-container">
+              <label for="name">Full Name</label> <br>
+              <i class="fa fa-user"></i>
+              <input type="text" placeholder="Rodney Cotton" >
+            </div>
+
+            <div class="input-container">
+              <label for="address">Address</label> <br>
+              <i class="fa fa-home"></i>
+              <input type="text" placeholder="Your address...." >
+            </div>
+
+            <div class="input-container">
+              <label for="city">City</label> <br>
+              <i class="fa fa-building"></i>
+              <input type="text" placeholder="Your City....." >
+            </div>
+
+            <div class="input-container2">
+              <div>
+                <label for="country">Country</label> <br>
+                <select
+                  class="input-feild select-option"
+                  name="country"
+                  id="country"
+                >
+                  <option value="" default>&#Xf57e; Your country...</option>
+                  <option value="bangladesh">Bangladesh</option>
+                  <option value="pakistan">Pakistan</option>
+                  <option value="india">India</option>
+                  <option value="america">America</option>
+                </select>
+              </div>
+
+              <div class="input-cnt">
+                <label for="postal">Postal Code</label> <br>
+                <i class="fa fa-building"></i>
+                <input type="text" placeholder="Enter your Postal code..." >  
+              </div>
+             
+
+
+            </div>
+
+            <div class="input-contai">
+             <input type="checkbox" name="checkbox" >
+             <label for="checkbox">Save this information for next time</label>
+            </div>
+
+
+            <div class="btn">
+              <button id="continue">Continue</button>
+            </div>
+          
+        
+          </form>
+       
+
+
+      </section>
+      <section class="product_detail">
+        <div class="product1">
+        <div class="imge">
+          <img src="photo1.png" alt="">
+        </div>
+
+        <div class="product_desc">
+          <h3>Vintage Backbag</h3>
+          <p><span id="new_amount" >$54.99</span></p> <p id="old_amount">$94.99</p>
+
+          <div class="control" > 
+            <button id="minus" >-</button>
+            <h3 id="num1">0</h3>
+            <button id="positive"  >+</button>
+          </div>
+        </div>
+        </div>
+
+        <div class="product2">
+          <div>
+            <img src="photo2.png" alt="">
+          </div>
+  
+          <div class="product_desc">
+            <h3>Levi Shoes</h3>
+            <p><span id="new_amount" >$74.99</span></p> <p id="old_amount">$124.99</p>
+  
+            <div class="control" > 
+              <button id="minus" >-</button>
+              <h3 id="num2">0</h3>
+              <button id="positive" >+</button>
+            </div>
+          </div>
+          </div>
+          <hr>
+          <div class="shippping">
+            <h2>Shipping</h2>
+            <h2>$19</h2>
+          </div>
+          <hr>
+          <div class="total">
+            <h2>Total</h2>
+            <h2>$148,98</h2>
+          </div>
+        
+      </section>
+    
+
+      
+    </main>
+
+    <footer>Zeeshan Ahmad @devchallenges.com</footer>
+   <script src="app.js"></script>
+  </body>
+</html>
